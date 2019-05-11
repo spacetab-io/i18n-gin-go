@@ -13,7 +13,7 @@ import (
 	"net/http"
 	"encoding/json"
 
-    "github.com/gin-gonic/gin"
+ 	"github.com/gin-gonic/gin"
 	"github.com/microparts/i18n-go/translation"
 	translation_gin "github.com/microparts/i18n-go-gin/translation"
 )
@@ -56,17 +56,17 @@ func Router() http.Handler {
 
 func Handler(c *gin.Context) {
 	rec := &Record{
-		Id: 10,
+	    Id: 10,
 		Name: translation.String {
 		    Translate: map[string]string {
     			"en": "Hello world!",
     			"ru": "Здравствуй мир!",
 	    	},
-		},
+	    },
 	}
 	
 	rec.ApplyTranslationCtx(translation_gin.ContextFromGin(&Conf, c))
 	
-    c.JSON(http.StatusOK, rec)
+	c.JSON(http.StatusOK, rec)
 }
 ```
