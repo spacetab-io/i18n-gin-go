@@ -1,14 +1,11 @@
-module github.com/microparts/i18n-go-gin
+module github.com/spacetab-io/i18n-gin-go
 
 go 1.12
 
 require (
-	github.com/gin-contrib/sse v0.0.0-20190301062529-5545eab6dad3 // indirect
-	github.com/gin-gonic/gin v1.3.0
-	github.com/golang/protobuf v1.3.1 // indirect
-	github.com/mattn/go-isatty v0.0.7 // indirect
-	github.com/microparts/i18n-go v0.1.0
-	github.com/ugorji/go v1.1.4 // indirect
-	gopkg.in/go-playground/validator.v8 v8.18.2 // indirect
-	gopkg.in/yaml.v2 v2.2.2 // indirect
+	github.com/gin-gonic/gin v1.6.2
+	github.com/json-iterator/go v1.1.10 // indirect
+	github.com/spacetab-io/i18n-go v0.1.9
+	github.com/stretchr/testify v1.6.1 // indirect
+	golang.org/x/sys v0.0.0-20200323222414-85ca7c5b95cd // indirect
 )

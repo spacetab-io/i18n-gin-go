@@ -1,4 +1,4 @@
-# i18n-go-gin
+# i18n-gin-go
 A gin wrappers for a i18n-go package
 
 # Translation
@@ -11,12 +11,12 @@ Basic usage a gin middleware for processing HTTP's requests
 package pack
 
 import (
-	"net/http"
 	"encoding/json"
+	"net/http"
 
  	"github.com/gin-gonic/gin"
-	"github.com/microparts/i18n-go/translation"
-	translation_gin "github.com/microparts/i18n-go-gin/translation"
+	translation_gin "github.com/spacetab-io/i18n-gin-go/translation"
+	"github.com/spacetab-io/i18n-go/translation"
 )
 
 var (

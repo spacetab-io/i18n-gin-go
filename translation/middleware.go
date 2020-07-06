@@ -2,7 +2,7 @@ package translation
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/microparts/i18n-go/translation"
+	"github.com/spacetab-io/i18n-go/translation"
 )
 
 const (
