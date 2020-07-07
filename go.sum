@@ -29,8 +29,8 @@ github.com/modern-go/reflect2 v0.0.0-20180701023420-4b7aa43c6742 h1:Esafd1046DLD
 github.com/modern-go/reflect2 v0.0.0-20180701023420-4b7aa43c6742/go.mod h1:bx2lNnkwVCuqBIxFjflWJWanXIb3RllmbCylyMrvgv0=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
-github.com/spacetab-io/i18n-go v0.1.9 h1:5Cspl/DO5rFbta0MEww9vWimS90keywm3Ygyk2EyETA=
-github.com/spacetab-io/i18n-go v0.1.9/go.mod h1:3o+A17tw/nm01BK45eFOpvp72te9507056uIXTRmxik=
+github.com/spacetab-io/i18n-go v0.2.1 h1:EfLC7bV4Gl317PbsDmZjNjfD7hqCJWsug2t0aVN/3dA=
+github.com/spacetab-io/i18n-go v0.2.1/go.mod h1:2Izeqym9D4qXQa7jV74U5OytiWpgAfgW/+dKtWvYxsE=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
 github.com/stretchr/testify v1.3.0/go.mod h1:M5WIy9Dh21IEIfnGCwXGc5bZfKNJtfHm1UVUgZn+9EI=
 github.com/stretchr/testify v1.4.0/go.mod h1:j7eGeouHqKxXV5pUuKE4zz7dFj8WfuZ+81PSLYec5m4=
